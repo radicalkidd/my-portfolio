@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My personal portfolio webpage deployed",
   "main": "index.js",
-  "homepage": "https://radicalkidd.github.io/my-portfolio",
+  "homepage": "http://radicalkidd.github.io/my-portfolio/",
   "scripts": {
     "start": "nodemon server/server.js",
     "react-dev": "webpack --config webpack.config.js --watch",
