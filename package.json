@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "My personal portfolio webpage deployed",
   "main": "index.js",
+  "homepage": "https://radicalkidd.github.io/my-portfolio",
   "scripts": {
     "start": "nodemon server/server.js",
-    "react-dev": "webpack --config webpack.config.js --watch"
+    "react-dev": "webpack --config webpack.config.js --watch",
+    "predeploy": "npm run react-dev",
+    "deploy": "gh-pages -d react-dev"
   },
   "keywords": [],
   "author": "",
