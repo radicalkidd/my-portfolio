@@ -6,9 +6,10 @@
   "homepage": "http://radicalkidd.github.io/my-portfolio/",
   "scripts": {
     "start": "nodemon server/server.js",
+    "build": "react-scripts build",
     "react-dev": "webpack --config webpack.config.js --watch",
-    "predeploy": "npm run react-dev",
-    "deploy": "gh-pages -d react-dev"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
