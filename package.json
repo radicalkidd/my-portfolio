@@ -1,43 +1,42 @@
 {
   "name": "my-portfolio",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.13.1"
+  },
   "description": "My personal portfolio webpage deployed",
   "main": "index.js",
-  "homepage": "http://radicalkidd.github.io/my-portfolio/",
   "scripts": {
     "start": "nodemon server/server.js",
-    "build": "react-scripts build",
-    "react-dev": "webpack --config webpack.config.js --watch",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "react-dev": "webpack --config webpack.config.js --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/preset-react": "^7.0.0",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
     "babel-loader": "^8.0.6",
     "css-loader": "^2.1.1",
     "file-loader": "^3.0.1",
     "style-loader": "^0.23.1",
-    "webpack": "^4.39.1",
-    "webpack-cli": "^3.3.6",
-    "webpack-dev-server": "^3.8.0"
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
     "body-parser": "^1.19.0",
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.4.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "gh-pages": "^2.1.1",
     "jquery": "^3.4.1",
-    "mongoose": "^5.6.7",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-router-dom": "^5.0.1",
+    "mongoose": "^5.8.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
     "request": "^2.88.0"
   }
 }
