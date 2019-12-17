@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 class AboutMe extends Component {
   render() {
@@ -15,6 +15,7 @@ class AboutMe extends Component {
                     <h2 className="colorlib-heading">Who Am I?</h2>
                     <p>I am a Software Engineer. I enjoy learning about new technologies, solving problems, and building things.</p>
                     <p>I come from a non-traditional CS background. When I was pursuing law enforcement, I decided to explore my curiosity with programming on my free time. I have spent the last year learning multiple web development languages and technologies, data structures, and solving algorithms.</p>
+                    <p>I'm looking for a great, enthusiastic engineering team to work for that will provide me with interesting and challenging work that I can learn from and contribute to. My goal is that I'd like to learn as much as I can and grow within a company in order to make a meaningful impact.</p>  
                     </div>
                 </div>
                 </div>
