@@ -15,7 +15,8 @@ class Introduction extends Component {
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
                           <h1><font color="white">Hi! <br />I'm Vu</font></h1>
-                          <p><a className="btn btn-primary btn-learn" href="https://docs.google.com/document/d/1xvoqp5wpmH9nZjC1TZm4Ls1kQ1U5dOCkaoMFx7mFHi8/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><font color="white">View CV</font><i className="icon-download4" /></a></p>
+                          <p><a className="btn btn-primary btn-learn" href="https://docs.google.com/document/d/1iYbAdykIRtQyaR3q0EVKLR6VGrsDUZtb1hK80rpbEmI/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><font color="white">View CV</font><i className="icon-download4" /></a></p>
+                          <p>I come from a non-traditional CS background. When I was pursuing law enforcement, I decided to explore my curiosity with programming. I have spent the last year learning multiple web development languages and technologies, data structures, and solving problems.</p>
                         </div>
                       </div>
                     </div>
